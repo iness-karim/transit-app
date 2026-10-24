@@ -1,0 +1,13 @@
+<template>
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+            </linearGradient>
+        </defs>
+        <rect width="100" height="100" rx="20" fill="url(#logo-grad)" />
+        <path d="M30 30 L70 30 L70 45 L57 45 L57 75 L43 75 L43 45 L30 45 Z" fill="white" />
+        <path d="M75 25 L85 35 L75 45 Z" fill="white" opacity="0.8" />
+    </svg>
+</template>

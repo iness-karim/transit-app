@@ -1,0 +1,50 @@
+# ============================
+# Root .gitignore for Transit App
+# ============================
+
+# Python virtual environment
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Python ML model & generated files (large binaries)
+ml_service/*.pkl
+ml_service/*.csv
+ml_service/__pycache__/
+
+# Environment files (NEVER commit secrets)
+.env
+.env.local
+.env.*.local
+.env.backup
+.env.production
+
+# Laravel / PHP
+transit-app/vendor/
+transit-app/node_modules/
+transit-app/public/build/
+transit-app/public/hot/
+transit-app/public/storage/
+transit-app/storage/*.key
+transit-app/storage/pail/
+transit-app/bootstrap/cache/*.php
+transit-app/bootstrap/ssr/
+transit-app/.phpunit.result.cache
+transit-app/.phpunit.cache/
+transit-app/auth.json
+transit-app/composer_err.txt
+transit-app/log.txt
+transit-app/tmp_usecase.mmd
+transit-app/docker-
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

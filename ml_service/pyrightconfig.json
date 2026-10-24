@@ -1,0 +1,7 @@
+{
+  "venvPath": "c:\\Users\\HP\\Downloads\\transit-app",
+  "venv": ".venv",
+  "extraPaths": [
+    "."
+  ]
+}
